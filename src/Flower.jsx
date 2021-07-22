@@ -14,16 +14,40 @@ const Flower = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <CommonCard imgsrc={flimg} />
-          <CommonCard imgsrc={flimg2} />
-          <CommonCard imgsrc={flimg3} />
-          <CommonCard imgsrc={flimg7} />
+          <CommonCard
+            imgsrc={flimg}
+            link="https://en.wikipedia.org/wiki/Dahlia"
+          />
+          <CommonCard
+            imgsrc={flimg2}
+            link="https://en.wikipedia.org/wiki/Zinnia_elegans"
+          />
+          <CommonCard
+            imgsrc={flimg3}
+            link="https://en.wikipedia.org/wiki/Nelumbo_nucifera"
+          />
+          <CommonCard
+            imgsrc={flimg7}
+            link="https://en.wikipedia.org/wiki/Jasminum_sambac"
+          />
         </div>
         <div className="row">
-          <CommonCard imgsrc={flimg4} />
-          <CommonCard imgsrc={flimg5} />
-          <CommonCard imgsrc={flimg6} />
-          <CommonCard imgsrc={flimg8} />
+          <CommonCard
+            imgsrc={flimg4}
+            link="https://en.wikipedia.org/wiki/Rose"
+          />
+          <CommonCard
+            imgsrc={flimg5}
+            link="https://en.wikipedia.org/wiki/Peony"
+          />
+          <CommonCard
+            imgsrc={flimg6}
+            link="https://en.wikipedia.org/wiki/Hibiscus"
+          />
+          <CommonCard
+            imgsrc={flimg8}
+            link="https://en.wikipedia.org/wiki/Hydrangea"
+          />
         </div>
       </div>
     </>

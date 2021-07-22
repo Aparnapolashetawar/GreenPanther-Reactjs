@@ -21,9 +21,9 @@ const CommonCard = (props) => {
           />
           <div className="card-body">
             <p className="card-title">Beautyful Flowers</p>
-            <button to="/" className="btn btn-primary">
-              Explore!!!!
-            </button>
+            <a href={props.link} target="_blank">
+              <button className="btn btn-primary">Explore!!!!</button>
+            </a>
           </div>
         </div>
       </div>
